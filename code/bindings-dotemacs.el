@@ -1,3 +1,4 @@
+;;https://github.com/syl20bnr/dotemacs.git
 ;; Regular shortcuts ==========================================================
 
 ;; simple and more consistent keyboard quit key bindings
@@ -241,4 +242,4 @@
 ;; centered cursor ------------------------------------------------------------
 (evil-leader/set-key "zz" 'global-centered-cursor-mode)
 
-(provide 'evil-bindings)
+(provide 'bindings-dotemacs)
