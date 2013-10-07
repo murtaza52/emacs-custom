@@ -70,11 +70,6 @@
 ;; (key-chord-define-global "bb" 'ace-jump-char-mode)
 ;; (key-chord-define-global "mm" 'ace-jump-line-mode)
 
-;; ;; evil-nerd-commenter
-(setq evilnc-hotkey-comment-operator ",,")
-(require 'evil-nerd-commenter)
-(evilnc-default-hotkeys)
-
 
 ;; Changing projectile prefix key  as it conflicts with evil mode
 ;; ;; (require 'projectile)

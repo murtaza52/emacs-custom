@@ -7,8 +7,10 @@
 (require 'misc-cs)
 (require 'clojure-cs)
 (require 'evil-cs)
+(require 'nerd-commenter-cs)
 (require 'funcs-dotemacs)
 (require 'bindings-dotemacs)
+;; (require 'graphene)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
