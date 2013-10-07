@@ -175,18 +175,19 @@ argument takes the kindows rotate backwards."
             (if dedicated "no longer " "")
             (buffer-name))))
 
-;; Theme management
-;; from http://stackoverflow.com/questions/9900232/changing-color-themes-emacs-24-order-matters
-(defadvice load-theme
-  (before theme-dont-propagate activate)
-  (mapcar #'disable-theme custom-enabled-themes)
-  (load-user-config)
-  (load-host-config))
-(defun load-theme-day ()
-  (interactive)
-  (load-theme 'solarized-light))
-(defun load-theme-night ()
-  (interactive)
-  (load-theme 'solarized-dark))
+;; ;; Theme management
+;; ;; from http://stackoverflow.com/questions/9900232/changing-color-themes-emacs-24-order-matters
+;; (defadvice load-theme
+;;   (before theme-dont-propagate activate)
+;;   (mapcar #'disable-theme custom-enabled-themes)
+;;   ;; (load-user-config)
+;;   ;; (load-host-config)
+;;   )
+;; (defun load-theme-day ()
+;;   (interactive)
+;;   (load-theme 'solarized-light))
+;; (defun load-theme-night ()
+;;   (interactive)
+;;   (load-theme 'solarized-dark))
 
 (provide 'funcs-dotemacs)
